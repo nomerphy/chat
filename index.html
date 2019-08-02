@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="img/roflan3.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+  <title>PTU CHAT</title>
+  <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h2>PTU
+                <span>PTU</span>
+                <span>PTU</span>
+                <span>IN DA HOUSE</span>
+            </h2>
+        </div>
+        <div class="clock">00:00:00</div>
+      <div id="mybtn"><img src="img/play.svg" alt="" id="image" onclick="imgchange(this,'img/play.svg','img/pause.svg')"></div>   
+     
+    </header>
+    <audio id="myaudio">
+            <source src="audio/mika-relax.mp3" type="audio/mp3"/> 
+           </audio>
+    <div class="wrapper">
+  <div id="message-container"></div>
+  <form id="send-container">
+    <input type="text" id="message-input" placeholder="Пиши сюда">
+    <button type="submit" id="send-button" class="parallax" data-speed="5"><img src="img/message.svg" alt=""></button>
+  </form>
+</div>
+
+<div class="cursor"></div>
+<script src="script/main.js"></script>
+</body>
+</html>

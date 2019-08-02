@@ -1,0 +1,81 @@
+@media only screen and (max-width : 1440px){
+    #message-container{
+        height: auto;
+        margin-bottom: 600px;
+      }
+}
+@media only screen and (max-width : 768px) {
+    .wrapper{
+        width: 100%;
+        height: auto;
+        border: none;
+    }
+    #message-container div{
+        width: 400px;
+        height: auto;
+    }
+    #send-container{
+        width: 400px;
+        bottom: 5%;
+    }
+    .logo{
+        transform: translateX(15px);
+    }
+    .logo h2{
+        font-size: 35px;
+    }
+    #mybtn{
+        margin-right: 15px;
+    }
+    header img{
+        max-width: 45px;
+    }
+    .cursor{
+        display: none;
+        pointer-events: none;
+    }
+}
+@media only screen and (max-width : 420px){
+    #message-container div{
+        width: 350px;
+        height: auto;
+    }
+    #send-container{
+        width: 350px;
+    }
+}
+@media only screen and (max-width : 375px){
+    #message-container div{
+        width: 325px;
+        height: auto;
+    }
+    #send-container{
+        width: 325px;
+    }
+    #send-button{
+        margin-left: 10px;
+        width: 55px;
+        height: 40px;
+    }
+}
+@media only screen and (max-width : 320px){
+    #message-container div{
+        width: 290px;
+        height: auto;
+    }
+    #send-container{
+        width: 300px;
+    }
+    #send-button{
+        width: 50px;
+    }
+    #send-button img{
+        max-width: 40px;
+    }
+    .logo{
+        transform: translateX(5px);
+    }
+    #mybtn{
+        margin-right: 5px;
+    }
+}
